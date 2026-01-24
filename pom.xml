@@ -215,25 +215,4 @@
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
 
-  <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-enforcer-plugin</artifactId>
-    <version>3.5.0</version>
-    <executions>
-        <execution>
-            <goals>
-                <goal>enforce</goal>
-            </goals>
-            <configuration>
-                <rules>
-                    <requireMavenVersion>
-                        <version>[3.9.0,)</version> <!-- Your min version range -->
-                    </requireMavenVersion>
-                    <!-- Add other rules like requireJavaVersion if needed -->
-                </rules>
-            </configuration>
-        </execution>
-    </executions>
-  </plugin>
-
 </project>
