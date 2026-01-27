@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Register New User for DevOps Learning</h1>
+    <h1>New User Register for DevOps Learning</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
@@ -10,6 +10,10 @@
     
     <label for="mobile"><b>Enter mobile</b></label>
     <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
+    <br>
+
+    <label for="Address"><b>Enter your Address</b></label>
+    <input type="text" placeholder="Enter your Address" name="address" id="address" required>
     <br>
 
     <label for="email"><b>Enter Email</b></label>
