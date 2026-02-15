@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>User Register for DevOps learning with Ishwar</h1>
+    <h1>User Register for DevOps learning</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
